@@ -1,5 +1,14 @@
 /**
  *  Take a input n and print it increasing using recursion.
+ *
+ *  input - 5
+ *  output -
+ * 1
+ * 2
+ * 3
+ * 4
+ * 5
+ *
  */
 public class PrintIncreasingNumber {
     public static void main(String[] args) {
