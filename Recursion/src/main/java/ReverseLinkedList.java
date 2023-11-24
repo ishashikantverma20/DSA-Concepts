@@ -19,9 +19,9 @@ public class ReverseLinkedList {
 		// new head which need to return
 		ListNode newHead = reverseList(head.next);
 
-		// e.g. 1 -> 2 -> 1
+
 		head.next.next = head;
-		// 1 -> NULL and remove old link
+
 		head.next = null;
 
 		return newHead;

@@ -30,7 +30,7 @@ public class PascalTriangle {
 			// add first 1
 			temp.add(1);
 				for(int i = 0; i<rowIndex-1; i++) {
-					// adding first and seocnd index number and setting to 2nd index in result
+					// adding first and seocnd index number
 					temp.add(i+1, res.get(i) + res.get(i+1));
 				}
 			// add last 1
